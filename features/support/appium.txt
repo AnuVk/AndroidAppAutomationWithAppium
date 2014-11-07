@@ -1,0 +1,8 @@
+[caps]
+platformName = "Android"
+appActivity = ".HomeActivity"
+appPackage = "com.vijayarunkumar.anupama.androidappautomationwithappium"
+
+[appium_lib]
+sauce_username = false
+sauce_access_key = false

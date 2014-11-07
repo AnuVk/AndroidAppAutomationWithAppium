@@ -1,0 +1,11 @@
+/local.properties
+.idea/
+Gemfile.lock
+*.iml
+.gradle/
+build
+*.*~
+*.log
+*.apk
+../
+
