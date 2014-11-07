@@ -1,6 +1,7 @@
 [caps]
 platformName = "Android"
 appActivity = ".HomeActivity"
+deviceName = "Android Emulator"
 appPackage = "com.vijayarunkumar.anupama.androidappautomationwithappium"
 
 [appium_lib]

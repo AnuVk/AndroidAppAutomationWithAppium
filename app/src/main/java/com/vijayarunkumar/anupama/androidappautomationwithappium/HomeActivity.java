@@ -17,14 +17,10 @@ import butterknife.Optional;
 
 public class HomeActivity extends ActionBarActivity {
 
-    @InjectView(R.id.header_text)
-    TextView mHeaderText;
-    @InjectView(R.id.toast_implementation)
-    Button mviewToastButton;
-    @InjectView(R.id.navigate_to_list_view)
-    Button mViewListButton;
-    @InjectView(R.id.navigate_to_fragment)
-    Button mViewFragmentButton;
+    @InjectView(R.id.header_text) TextView mHeaderText;
+    @InjectView(R.id.toast_implementation) Button mviewToastButton;
+    @InjectView(R.id.navigate_to_list_view) Button mViewListButton;
+    @InjectView(R.id.navigate_to_fragment) Button mViewFragmentButton;
 
 
     @Override
