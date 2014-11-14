@@ -4,5 +4,7 @@ Given(/^I have launched the app$/) do
 end
 
 Then(/^I should see the Home screen$/) do
-    text('Android automation using Appium!')
+   wait = Selenium::WebDriver::Wait.new(:timeout => 3)
+   wait.until{find_element(:uiautomator, 'new UiSelector().text("Android automation using Appium!")')}
+    # text('Android automation using Appium!')
 end

@@ -4,5 +4,8 @@
     <string name="app_name">AndroidAppAutomationWithAppium</string>
     <string name="appium_text">Android automation using Appium!</string>
     <string name="action_settings">Settings</string>
+    <string name="toast_text">Click to see Toast</string>
+    <string name="list_string">Click to see a List view</string>
+    <string name="fragment_string">Click to see fragment</string>
 
 </resources>
